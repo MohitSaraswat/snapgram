@@ -28,12 +28,7 @@ const LeftSidebar = () => {
     <nav className="leftsidebar">
       <div className="flex flex-col gap-11">
         <Link to="/" className="flex gap-3 items-center">
-          <img
-            src="/assets/images/logo.svg"
-            alt="logo"
-            width={170}
-            height={36}
-          />
+        <h2 className="title">Instagram Clone</h2>
         </Link>
 
         {isLoading || !user.email ? (
